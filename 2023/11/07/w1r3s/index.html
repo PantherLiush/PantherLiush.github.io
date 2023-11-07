@@ -200,7 +200,7 @@
     
         <span class="article-update-date article-meta-item">
         <i class="fas fa-file-pen"></i>&nbsp;
-        <span class="pc">2023-11-07 15:28:42</span>
+        <span class="pc">2023-11-07 15:38:10</span>
     </span>
     
     
@@ -235,7 +235,10 @@
             <div class="article-content keep-markdown-body">
                 
 
-                <h1 id="W1R3S-1-0-1"><a href="#W1R3S-1-0-1" class="headerlink" title="W1R3S 1.0.1"></a>W1R3S 1.0.1</h1><h2 id="1-Nmap扫描"><a href="#1-Nmap扫描" class="headerlink" title="1.Nmap扫描"></a>1.Nmap扫描</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo nmap -sn 192.168.72.0/24	#扫描主机</span><br><span class="line">// -sn 采用的是Ping扫描，正常情况发送4种报文。</span><br><span class="line">// 1.icmp回显请求；端口443的TCP-SYN请求；3.端口80的TCP-ACK请求；icmp时间戳请求。</span><br><span class="line">// 不使用sudo，则只会使用connect调用发送SYN请求到80,443端口；使用sudo后扫描本地网络是使用ARP请求，类似与arp-sacn -l。</span><br></pre></td></tr></table></figure>
+                <p>自我沉淀，跟随红队笔记的视频讲解，进行W1r3s靶场的学习以及实验笔记，Section one！</p>
+<span id="more"></span>
+
+<h1 id="W1R3S-1-0-1"><a href="#W1R3S-1-0-1" class="headerlink" title="W1R3S 1.0.1"></a>W1R3S 1.0.1</h1><h2 id="1-Nmap扫描"><a href="#1-Nmap扫描" class="headerlink" title="1.Nmap扫描"></a>1.Nmap扫描</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo nmap -sn 192.168.72.0/24	#扫描主机</span><br><span class="line">// -sn 采用的是Ping扫描，正常情况发送4种报文。</span><br><span class="line">// 1.icmp回显请求；端口443的TCP-SYN请求；3.端口80的TCP-ACK请求；icmp时间戳请求。</span><br><span class="line">// 不使用sudo，则只会使用connect调用发送SYN请求到80,443端口；使用sudo后扫描本地网络是使用ARP请求，类似与arp-sacn -l。</span><br></pre></td></tr></table></figure>
 
 <p><img  
                      lazyload

